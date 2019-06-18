@@ -10,7 +10,7 @@ import android.widget.ImageView;
  *
  * @author xmuSistone
  */
-public class DataImageView extends ImageView {
+public class DataImageView extends android.support.v7.widget.AppCompatImageView {
 
     private String absolutePath;
     private Bitmap bitmap;
